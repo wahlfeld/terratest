@@ -1,10 +1,10 @@
 package docker
 
 import (
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/shell"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // Push runs the 'docker push' command to push the given tag. This will fail the test if there are any errors.

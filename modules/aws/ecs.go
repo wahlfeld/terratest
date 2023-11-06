@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ecs"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // GetEcsCluster fetches information about specified ECS cluster.

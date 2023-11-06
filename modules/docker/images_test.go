@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/random"
 	"github.com/stretchr/testify/assert"
+	"github.com/wahlfeld/terratest/modules/random"
 )
 
 func TestListImagesAndDeleteImage(t *testing.T) {

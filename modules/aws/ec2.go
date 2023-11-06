@@ -5,9 +5,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // GetPrivateIpOfEc2Instance gets the private IP address of the given EC2 Instance in the given region.

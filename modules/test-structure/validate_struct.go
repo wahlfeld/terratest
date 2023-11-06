@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 
 	go_commons_collections "github.com/gruntwork-io/go-commons/collections"
-	"github.com/gruntwork-io/terratest/modules/collections"
-	"github.com/gruntwork-io/terratest/modules/files"
 	"github.com/mattn/go-zglob"
+	"github.com/wahlfeld/terratest/modules/collections"
+	"github.com/wahlfeld/terratest/modules/files"
 )
 
 // ValidateFileType is the underlying module type to search for when performing validation. Either Terraform or Terragrunt

@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/Azure/azure-sdk-for-go/profiles/preview/sql/mgmt/sql"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // GetSQLServerClient is a helper function that will setup a sql server client

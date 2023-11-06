@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/oracle/oci-go-sdk/common"
 	"github.com/oracle/oci-go-sdk/identity"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/random"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // GetRandomAvailabilityDomain gets a randomly chosen availability domain for given compartment.

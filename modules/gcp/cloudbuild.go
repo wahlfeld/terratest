@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	cloudbuild "cloud.google.com/go/cloudbuild/apiv1/v2"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 	"google.golang.org/api/iterator"
 	cloudbuildpb "google.golang.org/genproto/googleapis/devtools/cloudbuild/v1"
 )

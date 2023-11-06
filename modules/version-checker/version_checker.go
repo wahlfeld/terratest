@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/gruntwork-io/terratest/modules/terraform"
+	"github.com/wahlfeld/terratest/modules/terraform"
 
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/hashicorp/go-version"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/shell"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // VersionCheckerBinary is an enum for supported version checking.

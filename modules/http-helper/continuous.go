@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 type GetResponse struct {

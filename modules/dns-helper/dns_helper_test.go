@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/retry"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/retry"
 )
 
 // These are the current public nameservers for gruntwork.io domain

@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/Azure/azure-sdk-for-go/profiles/preview/cosmos-db/mgmt/documentdb"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // GetCosmosDBAccountClientE is a helper function that will setup a CosmosDB account client.

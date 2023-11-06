@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/Azure/azure-sdk-for-go/services/datafactory/mgmt/2018-06-01/datafactory"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // DataFactoryExists indicates whether the Data Factory exists for the subscription.

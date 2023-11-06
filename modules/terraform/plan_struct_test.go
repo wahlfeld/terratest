@@ -3,9 +3,9 @@ package terraform
 import (
 	"testing"
 
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	http_helper "github.com/wahlfeld/terratest/modules/http-helper"
 )
 
 const (

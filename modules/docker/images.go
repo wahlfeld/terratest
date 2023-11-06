@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gruntwork-io/terratest/modules/collections"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/collections"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/shell"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // Image represents a docker image, and exports all the fields that the docker images command returns for the

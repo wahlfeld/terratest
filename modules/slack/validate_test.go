@@ -9,9 +9,9 @@ import (
 	"github.com/slack-go/slack"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/environment"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/retry"
+	"github.com/wahlfeld/terratest/modules/environment"
+	"github.com/wahlfeld/terratest/modules/random"
+	"github.com/wahlfeld/terratest/modules/retry"
 )
 
 const (

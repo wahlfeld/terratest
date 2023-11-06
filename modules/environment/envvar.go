@@ -3,8 +3,8 @@ package environment
 import (
 	"os"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // GetFirstNonEmptyEnvVarOrFatal returns the first non-empty environment variable from envVarNames, or throws a fatal

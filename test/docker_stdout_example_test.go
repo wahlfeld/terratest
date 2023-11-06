@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/docker"
 	"github.com/stretchr/testify/assert"
+	"github.com/wahlfeld/terratest/modules/docker"
 )
 
 func TestDockerComposeStdoutExample(t *testing.T) {

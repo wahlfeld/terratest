@@ -3,8 +3,8 @@ package oci
 import (
 	"os"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/oracle/oci-go-sdk/common"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // You can set this environment variable to force Terratest to use a specific compartment.

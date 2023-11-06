@@ -6,15 +6,15 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/packer"
-	"github.com/gruntwork-io/terratest/modules/ssh"
-	"github.com/gruntwork-io/terratest/modules/terraform"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/aws"
+	"github.com/wahlfeld/terratest/modules/files"
+	"github.com/wahlfeld/terratest/modules/k8s"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/packer"
+	"github.com/wahlfeld/terratest/modules/ssh"
+	"github.com/wahlfeld/terratest/modules/terraform"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // SaveTerraformOptions serializes and saves TerraformOptions into the given folder. This allows you to create TerraformOptions during setup

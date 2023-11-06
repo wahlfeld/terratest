@@ -6,8 +6,8 @@ import (
 
 	"k8s.io/client-go/util/jsonpath"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // UnmarshalJSONPath allows you to use an arbitrary JSONPath string to query a json blob and unmarshal the resulting

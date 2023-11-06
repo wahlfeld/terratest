@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/random"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/random"
 )
 
 func TestGetVariablesFromVarFilesAsString(t *testing.T) {

@@ -11,10 +11,10 @@ import (
 	"testing"
 
 	"github.com/Azure/azure-sdk-for-go/services/sql/mgmt/2014-04-01/sql"
-	"github.com/gruntwork-io/terratest/modules/azure"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/terraform"
 	"github.com/stretchr/testify/assert"
+	"github.com/wahlfeld/terratest/modules/azure"
+	"github.com/wahlfeld/terratest/modules/random"
+	"github.com/wahlfeld/terratest/modules/terraform"
 )
 
 func TestTerraformAzureSQLDBExample(t *testing.T) {

@@ -20,10 +20,10 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/random"
 	"github.com/stretchr/testify/require"
+	http_helper "github.com/wahlfeld/terratest/modules/http-helper"
+	"github.com/wahlfeld/terratest/modules/k8s"
+	"github.com/wahlfeld/terratest/modules/random"
 )
 
 const (

@@ -3,9 +3,9 @@ package aws
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/secretsmanager"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // CreateSecretStringWithDefaultKey creates a new secret in Secrets Manager using the default "aws/secretsmanager" KMS key and returns the secret ARN

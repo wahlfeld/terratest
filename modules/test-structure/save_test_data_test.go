@@ -4,10 +4,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/terraform"
 	"github.com/stretchr/testify/assert"
+	"github.com/wahlfeld/terratest/modules/files"
+	"github.com/wahlfeld/terratest/modules/k8s"
+	"github.com/wahlfeld/terratest/modules/terraform"
 )
 
 type testData struct {

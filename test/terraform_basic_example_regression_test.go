@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/terraform"
-	test_structure "github.com/gruntwork-io/terratest/modules/test-structure"
+	"github.com/wahlfeld/terratest/modules/random"
+	"github.com/wahlfeld/terratest/modules/terraform"
+	test_structure "github.com/wahlfeld/terratest/modules/test-structure"
 )
 
 // The tests in this folder are not example usage of Terratest. Instead, this is a regression test to ensure the

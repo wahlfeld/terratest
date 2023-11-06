@@ -5,11 +5,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/hashicorp/go-multierror"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/shell"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // EvalOptions defines options that can be passed to the 'opa eval' command for checking policies on arbitrary JSON data

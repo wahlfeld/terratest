@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/miekg/dns"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/retry"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // DNSFindNameservers tries to find the NS record for the given FQDN, iterating down the domain hierarchy

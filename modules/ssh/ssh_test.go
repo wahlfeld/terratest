@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	grunttest "github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/assert"
+	grunttest "github.com/wahlfeld/terratest/modules/testing"
 )
 
 func TestHostWithDefaultPort(t *testing.T) {

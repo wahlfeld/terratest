@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // InitAndPlan runs terraform init and plan with the given options and returns stdout/stderr from the plan command.

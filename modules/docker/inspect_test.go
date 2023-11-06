@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/shell"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/random"
+	"github.com/wahlfeld/terratest/modules/shell"
 )
 
 const dockerInspectTestImage = "nginx:1.17-alpine"

@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/ssh"
-	"github.com/gruntwork-io/terratest/modules/terraform"
-	test_structure "github.com/gruntwork-io/terratest/modules/test-structure"
 	"github.com/stretchr/testify/assert"
+	"github.com/wahlfeld/terratest/modules/aws"
+	"github.com/wahlfeld/terratest/modules/random"
+	"github.com/wahlfeld/terratest/modules/ssh"
+	"github.com/wahlfeld/terratest/modules/terraform"
+	test_structure "github.com/wahlfeld/terratest/modules/test-structure"
 )
 
 // This test shows how to override the systems local SSH Agent, with an in-process SSH agent, whose keys can be managed

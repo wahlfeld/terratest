@@ -4,10 +4,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/shell"
+	"github.com/wahlfeld/terratest/modules/testing"
 	"gotest.tools/v3/icmd"
 )
 

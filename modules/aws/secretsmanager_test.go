@@ -3,9 +3,9 @@ package aws
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/random"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/random"
 )
 
 func TestSecretsManagerMethods(t *testing.T) {

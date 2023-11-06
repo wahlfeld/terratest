@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/gruntwork-io/go-commons/files"
-	"github.com/gruntwork-io/terratest/modules/random"
 	"github.com/stretchr/testify/assert"
+	"github.com/wahlfeld/terratest/modules/random"
 )
 
 func createLogWriter(t *testing.T) LogWriter {

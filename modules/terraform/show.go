@@ -1,8 +1,8 @@
 package terraform
 
 import (
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // Show calls terraform show in json mode with the given options and returns stdout from the command. If

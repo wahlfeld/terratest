@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/files"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/files"
 )
 
 func TestInitAndPlanWithError(t *testing.T) {

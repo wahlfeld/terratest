@@ -6,10 +6,10 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ssm"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/retry"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // GetParameter retrieves the latest version of SSM Parameter at keyName with decryption.
@@ -199,7 +199,7 @@ func CheckSsmCommandWithDocumentE(t testing.TestingT, awsRegion, instanceID, com
 // CheckSSMCommandWithClientWithDocumentE checks that you can run the given command on the given instance through AWS SSM with the ability to provide the SSM client with specified Command Doc type. Returns the result and an error if one occurs.
 func CheckSSMCommandWithClientWithDocumentE(t testing.TestingT, client *ssm.SSM, instanceID, command string, commandDocName string, timeout time.Duration) (*CommandOutput, error) {
 
-	timeBetweenRetries := 2 * time.Second
+	timeBetweenRetries := 5 * time.Second
 	maxRetries := int(timeout.Seconds() / timeBetweenRetries.Seconds())
 
 	resp, err := client.SendCommand(&ssm.SendCommandInput{

@@ -1,8 +1,8 @@
 package terraform
 
 import (
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // Destroy runs terraform destroy with the given options and return stdout/stderr.

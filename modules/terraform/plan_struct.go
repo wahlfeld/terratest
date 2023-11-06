@@ -3,10 +3,10 @@ package terraform
 import (
 	"encoding/json"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
 	tfjson "github.com/hashicorp/terraform-json"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // PlanStruct is a Go Struct representation of the plan object returned from Terraform (after running `terraform show`).

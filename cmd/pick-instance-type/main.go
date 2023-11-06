@@ -4,17 +4,17 @@ import (
 	"fmt"
 
 	"github.com/gruntwork-io/go-commons/entrypoint"
-	"github.com/gruntwork-io/terratest/modules/aws"
 	"github.com/urfave/cli"
+	"github.com/wahlfeld/terratest/modules/aws"
 )
 
-const CustomUsageText = `Usage: pick-instance-type [OPTIONS] <REGION> <INSTANCE_TYPE> <INSTANCE_TYPE...> 
+const CustomUsageText = `Usage: pick-instance-type [OPTIONS] <REGION> <INSTANCE_TYPE> <INSTANCE_TYPE...>
 
 This tool takes in an AWS region and a list of EC2 instance types and returns the first instance type in the list that is available in all Availability Zones (AZs) in the given region, or exits with an error if no instance type is available in all AZs. This is useful because certain instance types, such as t2.micro, are not available in some of the newer AZs, while t3.micro is not available in some of the older AZs. If you have code that needs to run on a "small" instance across all AZs in many different regions, you can use this CLI tool to automatically figure out which instance type you should use.
 
 Arguments:
-   
-  REGION           The AWS region in which to look up instance availability. E.g.: us-east-1. 
+
+  REGION           The AWS region in which to look up instance availability. E.g.: us-east-1.
   INSTANCE_TYPE    One more more EC2 instance types. E.g.: t2.micro.
 
 
@@ -24,7 +24,7 @@ Options:
 
 Example:
 
-  pick-instance-type ap-northeast-2 t2.micro t3.micro 
+  pick-instance-type ap-northeast-2 t2.micro t3.micro
 `
 
 func run(cliContext *cli.Context) error {

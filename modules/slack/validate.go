@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/slack-go/slack"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // ValidateExpectedSlackMessage validates whether a message containing the expected text was posted in the given channel

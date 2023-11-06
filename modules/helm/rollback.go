@@ -1,8 +1,8 @@
 package helm
 
 import (
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // Rollback will downgrade the release to the specified version. This will fail

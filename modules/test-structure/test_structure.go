@@ -8,12 +8,12 @@ import (
 
 	go_test "testing"
 
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/opa"
-	"github.com/gruntwork-io/terratest/modules/terraform"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/files"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/opa"
+	"github.com/wahlfeld/terratest/modules/terraform"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // SKIP_STAGE_ENV_VAR_PREFIX is the prefix used for skipping stage environment variables.

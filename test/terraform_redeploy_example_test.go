@@ -7,15 +7,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/aws"
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/terraform"
-	test_structure "github.com/gruntwork-io/terratest/modules/test-structure"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/aws"
+	http_helper "github.com/wahlfeld/terratest/modules/http-helper"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/random"
+	"github.com/wahlfeld/terratest/modules/retry"
+	"github.com/wahlfeld/terratest/modules/terraform"
+	test_structure "github.com/wahlfeld/terratest/modules/test-structure"
 )
 
 // An example of how to test the Terraform module in examples/terraform-redeploy-example using Terratest. We deploy the

@@ -10,14 +10,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/retry"
 	"github.com/hashicorp/go-multierror"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/retry"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/hashicorp/go-version"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/shell"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // Options are the options for Packer.

@@ -8,11 +8,11 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	terratest_aws "github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/packer"
-	"github.com/gruntwork-io/terratest/modules/random"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	terratest_aws "github.com/wahlfeld/terratest/modules/aws"
+	"github.com/wahlfeld/terratest/modules/packer"
+	"github.com/wahlfeld/terratest/modules/random"
 )
 
 // Occasionally, a Packer build may fail due to intermittent issues (e.g., brief network outage or EC2 issue). We try

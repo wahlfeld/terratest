@@ -3,9 +3,9 @@ package test
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/opa"
-	"github.com/gruntwork-io/terratest/modules/terraform"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/opa"
+	"github.com/wahlfeld/terratest/modules/terraform"
 )
 
 // An example of how to use Terratest to run OPA policy checks on Terraform source code. This will check the module

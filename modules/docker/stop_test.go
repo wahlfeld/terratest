@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/shell"
 	"github.com/stretchr/testify/require"
+	http_helper "github.com/wahlfeld/terratest/modules/http-helper"
+	"github.com/wahlfeld/terratest/modules/shell"
 )
 
 func TestStop(t *testing.T) {

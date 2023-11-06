@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/shell"
 	"github.com/stretchr/testify/assert"
+	"github.com/wahlfeld/terratest/modules/shell"
 )
 
 func DirectoryEqual(t *testing.T, dirA string, dirB string) bool {

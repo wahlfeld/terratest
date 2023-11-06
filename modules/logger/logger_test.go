@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	tftesting "github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/assert"
+	tftesting "github.com/wahlfeld/terratest/modules/testing"
 )
 
 func TestDoLog(t *testing.T) {

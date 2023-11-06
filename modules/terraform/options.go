@@ -3,11 +3,11 @@ package terraform
 import (
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/ssh"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/jinzhu/copier"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/ssh"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 var (

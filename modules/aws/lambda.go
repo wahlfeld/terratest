@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"github.com/aws/aws-sdk-go/service/lambda"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 type InvocationTypeOption string

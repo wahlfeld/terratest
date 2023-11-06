@@ -1,8 +1,8 @@
 package helm
 
 import (
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // Delete will delete the provided release from Tiller. If you set purge to true, Tiller will delete the release object

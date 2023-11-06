@@ -14,13 +14,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/azure"
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/terraform"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/azure"
+	http_helper "github.com/wahlfeld/terratest/modules/http-helper"
+	"github.com/wahlfeld/terratest/modules/k8s"
+	"github.com/wahlfeld/terratest/modules/random"
+	"github.com/wahlfeld/terratest/modules/terraform"
 )
 
 func TestTerraformAzureAKSExample(t *testing.T) {

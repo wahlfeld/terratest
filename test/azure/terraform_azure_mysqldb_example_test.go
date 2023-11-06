@@ -12,10 +12,10 @@ import (
 	"testing"
 
 	"github.com/Azure/azure-sdk-for-go/profiles/latest/mysql/mgmt/mysql"
-	"github.com/gruntwork-io/terratest/modules/azure"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/terraform"
 	"github.com/stretchr/testify/assert"
+	"github.com/wahlfeld/terratest/modules/azure"
+	"github.com/wahlfeld/terratest/modules/random"
+	"github.com/wahlfeld/terratest/modules/terraform"
 )
 
 func TestTerraformAzureMySQLDBExample(t *testing.T) {

@@ -3,8 +3,8 @@ package terraform
 import (
 	"errors"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // InitAndApply runs terraform init and apply with the given options and return stdout/stderr from the apply command. Note that this

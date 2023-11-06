@@ -14,8 +14,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/random"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/random"
 )
 
 // Test that RunKubectlAndGetOutputE will run kubectl and return the output by running a can-i command call.

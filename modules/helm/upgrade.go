@@ -4,9 +4,9 @@ import (
 	"path/filepath"
 
 	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/files"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // Upgrade will upgrade the release and chart will be deployed with the lastest configuration. This will fail

@@ -11,9 +11,9 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
+	"github.com/wahlfeld/terratest/modules/logger"
+	"github.com/wahlfeld/terratest/modules/testing"
 )
 
 // Command is a simpler struct for defining commands than Go's built-in Cmd.
@@ -181,7 +181,7 @@ func readData(t testing.TestingT, log *logger.Logger, reader *bufio.Reader, writ
 		// interpreting any possible formatting characters in
 		// the line.
 		//
-		// See https://github.com/gruntwork-io/terratest/issues/982.
+		// See https://github.com/wahlfeld/terratest/issues/982.
 		log.Logf(t, "%s", line)
 
 		if _, err := writer.WriteString(line); err != nil {

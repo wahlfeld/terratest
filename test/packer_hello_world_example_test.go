@@ -3,9 +3,9 @@ package test
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/docker"
-	"github.com/gruntwork-io/terratest/modules/packer"
 	"github.com/stretchr/testify/assert"
+	"github.com/wahlfeld/terratest/modules/docker"
+	"github.com/wahlfeld/terratest/modules/packer"
 )
 
 func TestPackerHelloWorldExample(t *testing.T) {
